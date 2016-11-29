@@ -1,8 +1,9 @@
 // PoisonTap by Samy Kamkar - https://samy.pl/poisontap
+// port changed to 80
 
 //var _ = require('underscore')
 var WebSocketServer = require('websocket').server
-var webSocketsServerPort = 1337
+var webSocketsServerPort = 80
 var http = require('http')
 var conns = []
 var gr
