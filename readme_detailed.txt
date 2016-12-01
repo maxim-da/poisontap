@@ -17,3 +17,11 @@ git status
 git add .
 git commit
 git push origin master
+
+#screen
+screen
+#ctrl+a then d to detach
+#show all sessions
+screen -ls
+#reattach
+screen -r
